@@ -1,2 +1,5 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<script lang="ts">
+    import '../app.css';
+    export let name = 'Lev';
+</script>
+<h3 class="text-teal-400">My name is {name}</h3>
