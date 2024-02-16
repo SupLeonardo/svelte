@@ -5,37 +5,13 @@
     let base = 0
 </script>
 
-<div class="items-center justify-center flex">
-    <div class="">
-        <h1 class="text-white text-6xl pb-5 pr-5 justify-end flex font-bold">{base}</h1>
-        <div class="w-full flex justify-center">
-            <Button cls='active:bg-sky-500 bg-sky-900' text='C'/>
-            <Button cls='active:bg-sky-500 bg-sky-900' text='%'/>
-            <Button cls='active:bg-sky-500 bg-sky-900' text='⌫'/>
-            <Button cls='active:bg-sky-500 bg-sky-900' text='/'/></div>
-    
-            <div class="w-full flex justify-center">
-            <Button cls='bg-emerald-700 active:bg-emerald-500' text=7/>
-            <Button cls='bg-emerald-700 active:bg-emerald-500' text=8/>
-            <Button cls='bg-emerald-700 active:bg-emerald-500' text=9/>
-            <Button cls='active:bg-sky-500 bg-sky-900' text='X'/></div>
-    
-            <div class="w-full flex justify-center">
-            <Button cls='bg-emerald-700 active:bg-emerald-500' text=4/>
-            <Button cls='bg-emerald-700 active:bg-emerald-500' text=5/>
-            <Button cls='bg-emerald-700 active:bg-emerald-500' text=6/>
-            <Button cls='active:bg-sky-500 bg-sky-900' text='—'/></div>
-    
-            <div class="w-full flex justify-center">
-            <Button cls='bg-emerald-700 active:bg-emerald-500' text=1/>
-            <Button cls='bg-emerald-700 active:bg-emerald-500' text=2/>
-            <Button cls='bg-emerald-700 active:bg-emerald-500' text=3/>
-            <Button cls='active:bg-sky-500 bg-sky-900' text='+'/></div>
-    
-            <div class="w-full flex justify-center">
-            <Button cls='bg-emerald-700 active:bg-emerald-500' text=0/>
-            <Button cls='bg-emerald-700 active:bg-emerald-500' text=00/>
-            <Button cls='bg-emerald-700 active:bg-emerald-500' text=','/>
-            <Button cls='active:bg-sky-500 bg-sky-900' text='='/></div>
+<div class=" flex flex-col h-[80vh] w-[35vw] bg-white rounded-xl shadow-xl columns-1 items-center ">
+    <img class=' h-[7vh] w-[7vh] mt-[2vh] ' src="https://img.icons8.com/ios/50/verified-account.png" alt="verified-account"/> <br />
+    <h1 class=" flex justify-center font-bold w-[20vw] text-4xl ">Welcome back</h1>
+    <h2 class=" mt-[1vh] text-2xl ">Please enter your details to sign in</h2>
+    <div class=" w-full h-[20%] flex justify-center">
+        <Button logo='apple' />
+        <Button logo='google' />
+        <Button logo='microsoft' />
     </div>
 </div>
