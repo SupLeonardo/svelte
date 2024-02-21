@@ -5,8 +5,12 @@
 		<link rel="icon" href="%sveltekit.assets%/favicon.png" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		%sveltekit.head%
+		<script>
+			let page = document.documentElement;
+		</script>
 	</head>
 	<body data-sveltekit-preload-data="hover" class=" bg-slate-300 flex justify-center items-center h-[100dvh]">
-		<div class="flex justify-center">%sveltekit.body%</div>
+		<div class=" justify-center ">%sveltekit.body%</div>
+		
 	</body>
 </html>
